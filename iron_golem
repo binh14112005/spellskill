@@ -1,0 +1,14 @@
+SummonGolem:
+  spell_class: com.elmakers.mine.bukkit.action.builtin.SummonEntity
+  parameters:
+    entity_type: IRON_GOLEM
+    power: 5000
+    health: 10000
+    duration: 1000
+    target_self: true
+  effects:
+    cast:
+      particle: VILLAGER_HAPPY
+      radius: 1
+  icon: IRON_BLOCK
+  description: "Triệu hồi một Golem để hỗ trợ bạn trong chiến đấu."
